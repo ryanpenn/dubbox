@@ -48,7 +48,7 @@ public @interface Reference {
 
     boolean injvm() default false;
 
-    boolean check() default true;
+    boolean check() default false;
 
     boolean init() default false;
 
